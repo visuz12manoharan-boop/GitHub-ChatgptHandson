@@ -6,4 +6,9 @@ chrome.runtime.onMessage.addListener((message) => {
   }
 });
 
+chrome.runtime.onMessage.addListener((message) => {
+  if (message.action === "ELEMENT_FOCUSED") {
+    lastElement = message.element;
+  }
+});
 
