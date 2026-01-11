@@ -1,3 +1,5 @@
 
 file2 helps us to identify everything 
-this is help file which provides the users on how to proceed
+
+this is help text file which provides the users on how to proceed
+
